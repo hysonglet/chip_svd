@@ -1,0 +1,14 @@
+--- SWM341.svd	2023-03-18 14:52:35.763323459 +0800
++++ SWM341_patch.svd	2023-03-17 16:50:12.071158347 +0800
+@@ -6,8 +6,11 @@
+   <cpu>
+     <name>CM0</name>
+     <endian>little</endian>
++	<mpuPresent>true</mpuPresent>
++	<fpuPresent>true</fpuPresent>
+     <revision>r1p0</revision>
+     <nvicPrioBits>2</nvicPrioBits>
++	<vendorSystickConfig>false</vendorSystickConfig>
+   </cpu>
+   <addressUnitBits>8</addressUnitBits>
+   <width>32</width>
